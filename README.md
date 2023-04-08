@@ -5,6 +5,11 @@ This Readme file has the following main objective:
 if you want to run the model how do you load the assets and which notebooks you run
 ###################################################################################
 
+
+
+In the myCode.py file there are 2 places where you will need to insert a googeAPI key since this project uses geolocation
+seach for: "googlemaps.Client(key=" to enter your personal key (I got a warning from Google when  made the repository public)
+
 1. Data folder contains all the necessary, latest (at commit time) datafiles
    1. Go through the myCode.py or myCode.ipynb and find the load section at the top and at the very bottom of the         file
    2. change the directory path according to where you download and save the data assets on your local pc
