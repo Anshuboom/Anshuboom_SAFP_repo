@@ -35,6 +35,6 @@ mapChecker is the prediction notebook
 5. When you click submit, it checks the inputs, creats an X row and feeds it into the trained model
 6. It receives the predictions and probailities and displays a blurb with the results
 7. The next cell uses the geolocation, finds the k nearest attacks around the location and plots them, each neigbor has a proximity/range circle with radius 20KM
-8. The idea is to show you your location in proximity to know ATTACKS (not fatalities) in the area
+8. The idea is to show you your location in proximity to known ATTACKS (not fatalities) in the area
 9. The next cell then determines the possibility of the appropriate sharks that would be culprit if a FATAL attack were to occur based on their stats, habitat and history according to the ISAF
 10. What you get is either the KNOWN sharks in the area identified by the records t have attacked/killed OR if the attacks were unidentified, the main sharks based on temperature conditions that could be resposible in that area as well as their fatality probability. It charts them on a bar chart.
