@@ -26,7 +26,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tools.eval_measures import rmse
 import plotly.express as px
 import spacy
-gmaps = googlemaps.Client(key="AIzaSyBUN8KXWnNAoS36tpdZikfBWaNIEKfJ3-8")
+gmaps = googlemaps.Client(key="")
 import joblib
 import ipywidgets as widgets
 from unidecode import unidecode
