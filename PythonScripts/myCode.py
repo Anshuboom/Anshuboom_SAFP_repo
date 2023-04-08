@@ -784,7 +784,7 @@ def loadSharksByRegion(filename):
         
 class LocationSpot():
         
-    gmaps = googlemaps.Client(key="AIzaSyBUN8KXWnNAoS36tpdZikfBWaNIEKfJ3-8") 
+    gmaps = googlemaps.Client(key="") 
     
     myIndex = 0
     myName = ""
