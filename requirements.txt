@@ -1,0 +1,101 @@
+#REQUIREMENTS#
+This file lists the libraries used at some stage or other during the project
+in order of the stages
+All versions are the latest versions imported as of 31st March 2023
+
+###The essentials 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import re
+import seaborn as sns
+import json
+import pickle
+import pickle as pkl
+
+
+###Geolocation and Mapping
+import googlemaps
+import folium
+from geopy.distance import distance
+from sklearn.neighbors import BallTree, KDTree
+from sklearn.metrics.pairwise import haversine_distances
+
+###DisplayCompatibility
+from IPython.display import display, HTML
+import ipywidgets as widgets
+
+
+###Wrangling and Processing
+import re
+import time
+from tqdm import tqdm
+import random
+import csv
+import ast
+
+###FeatureEngineering:Standardising Scaling,Regularizing and Transforming
+import itertools
+import random
+simpleImputer
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import (
+    OneHotEncoder, 
+    OrdinalEncoder, 
+    StandardScaler,
+    PowerTransformer
+)
+
+######NLP############
+from cleantext import clean
+Spacy used for tokenizing
+from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
+
+
+########Column Transformer, Pipeline, Modeling########
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import (
+    RandomizedSearchCV,
+    GridSearchCV,
+    cross_val_score,
+    cross_validate,
+    train_test_split)
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+import lightgbm as lgb
+import xgboost as xgb
+
+####TimesSeriesModeling######
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.seasonal import seasonal_decompose
+from pmdarima import auto_arima
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tools.eval_measures import rmse
+
+####HyperParameterTuning##########
+import warnings 
+warnings.filterwarnings('ignore')
+from sklearn.model_selection import (
+    RandomizedSearchCV,
+    GridSearchCV,
+    cross_val_score,
+    cross_validate,
+    train_test_split,
+)
+
+####ModelEvaluation##########
+from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    f1_score,
+    recall_score,
+)
+from statsmodels.tools.eval_measures import rmse
+
+
+
+
+
