@@ -4,7 +4,6 @@ This Readme file has the following main objective:
 ###################################################################################
 if you want to run the model how do you load the assets and which notebooks you run
 ###################################################################################
-
 In the myCode.py file there are 2 places where you will need to insert a googeAPI key since this project uses geolocation
 seach for: "googlemaps.Client(key=" to enter your personal key (I got a warning from Google when  made the repository public)
 
@@ -19,6 +18,7 @@ seach for: "googlemaps.Client(key=" to enter your personal key (I got a warning 
 3. Make sure you run each cell of the ChartCompilation and mapChecker (especially %run myCode.ipynb)
    
 ####################################################################################
+
 ChartCompilation --The point of this file is to acquaint the user to the data as it describes the Shark Data found in dfAttacks.csv
 It describes the sharks and their individual implications in the attacks
 It describes the countries and their individual implications in the attacks
@@ -29,6 +29,7 @@ EXAMPLE:
   to chart the top 4, you only need to set that last integer to 4
 
 #####################################################################################
+
 mapChecker is the prediction notebook
 1. It loads the assets
 2. It presents a form that requires the input of "Gender", "Location", "TimeSlot" and "Activity" (which are used to compose a valid X record)
@@ -42,6 +43,7 @@ mapChecker is the prediction notebook
 10. What you get is either the KNOWN sharks in the area identified by the records t have attacked/killed OR if the attacks were unidentified, the main sharks based on temperature conditions that could be resposible in that area as well as their fatality probability. It charts them on a bar chart.
 
 ######################################################################################
+
 My Sources:
 Much of the data enrichment came from reading up about the sharks, their habitat preferences, etc from wikipaedia
 example:https://en.wikipedia.org/wiki/Wobbegong#:~:text=They%20are%20found%20in%20shallow,as%20far%20north%20as%20Japan.
