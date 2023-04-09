@@ -10,10 +10,16 @@ In the myCode.py file there are 2 places where you will need to insert a googeAP
 seach for: "googlemaps.Client(key=" to enter your personal key (I got a warning from Google when  made the repository public)
 
 1. Data folder contains all the necessary, latest (at commit time) datafiles
-   1. Go through the myCode.py or myCode.ipynb and find the load section at the top and at the very bottom of the file
-   based on the make file I suggest: py files in /src, notebook files in /Notebooks, data files in /Data, model files in /Models
+   1. Go through the myCode.py or myCode.ipynb and find the load section at the top and at the very bottom of the file.
    
-   NOTE: as it stands, the easiest way to run the notebooks is to copy the notebook and datafiles in the same folder because thats the way the paths are currently        defined.
+   Based on the make file I suggest: 
+   py files in /src, 
+   notebook files in /Notebooks, 
+   data files in /Data, 
+   model files in /Models
+   
+   NOTE: as it stands, the easiest way to run the notebooks is to copy the notebook and datafiles and all .pkl in the same folder 
+   because thats the way the paths are currently defined. However if you need it to be organised and will edit the paths, use the convention above.
    
    2. change the directory path according to where you download and save the data assets (of the Data folder) on your local pc
 2. The main results notbooks are:
