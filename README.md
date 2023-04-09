@@ -2,8 +2,10 @@
  Anshu Personal Repository
 This Readme file has the following main objective:
 ###################################################################################
+
 if you want to run the model how do you load the assets and which notebooks you run
 ###################################################################################
+
 In the myCode.py file there are 2 places where you will need to insert a googeAPI key since this project uses geolocation
 seach for: "googlemaps.Client(key=" to enter your personal key (I got a warning from Google when  made the repository public)
 
