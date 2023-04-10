@@ -65,6 +65,8 @@ https://public.opendatasoft.com/explore/dataset/global-shark-attack/api/?disjunc
 This data eventually, after the operations of wrangler.ipynb then wrangler2.ipynb was converted to dfAttacksX.csv which was used in the modeling
 I did not do ANY scraping in this project and I am QUITE happy about that
 
+It is important to note that wrangler.ipynb, and wrangler2.ipynb are no longer in use since the have already created the cleaned input file: dfAttacks.csv, which myCode.ipynb will load for all the relevant scripts. They have been left in the repo for future use if needed.
+
 I tend to binge watch all shark attack videos on Youtube and started watching "Sharks Happen" which got me interesed and inspired to addopt this project topic
 http://sharkshappen.com : what got me going was the "Sharks Happen Stats" xlsx file which the author generously provides. I looked at it and got the idea.
 The file itself was too messy to clean up and only consists 474 records but individual records were used to enrich the dfAttacks.csv file above based on victim names, I am very grateful to the auhor for this because I appreciate his interest, motivation and efforts
